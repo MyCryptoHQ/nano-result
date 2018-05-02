@@ -1,7 +1,7 @@
 {
   "name": "nano-result",
   "version": "0.0.1",
-  "description": "",
+  "description": "A mini result handing library inspired by Rusts' Result enum",
   "main": "dist/nano-result.umd.js",
   "module": "dist/nano-result.es6.js",
   "typings": "dist/lib",
@@ -46,6 +46,7 @@
   "devDependencies": {
     "@types/jest": "^22.2.0",
     "@types/node": "^9.4.6",
+    "coveralls": "^3.0.1",
     "husky": "^0.14.3",
     "jest": "^22.4.2",
     "lint-staged": "^7.0.0",
