@@ -44,12 +44,19 @@ export class Result<T> {
     throw Error(this.val.err);
   }
 
+  public expect(msg: string) {
+    if (this.isOk(this.val)) {
+      return this.val.res;
+    }
+    throw Error(msg);
+  }
+
   public ok() {
     return !this.val.err;
   }
 
-  public valueOf() {
-    return this.ok();
+  public err() {
+    return this.val.err;
   }
 
   public toVal() {
