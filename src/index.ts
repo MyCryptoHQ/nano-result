@@ -10,7 +10,7 @@ export interface IResultErr {
 
 export type TResult<T> = IResultOk<T> | IResultErr;
 
-export default class Result<T> {
+export class Result<T> {
   public static from<T>(value: TResult<T>) {
     return new Result(value);
   }
