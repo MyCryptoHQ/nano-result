@@ -1,5 +1,5 @@
 {
-  "name": "nano-result",
+  "name": "mycrypto-nano-result",
   "version": "0.0.1",
   "description": "A mini result handing library inspired by Rusts' Result enum",
   "main": "dist/nano-result.umd.js",
